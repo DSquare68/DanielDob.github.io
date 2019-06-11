@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body{
+	background-color: #989898;
+}
+
+.header-image{
+	height: 50px;
+	width: 80%;
+	background-color: #2c16d0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-image p{
+	text-align: center;
+}
+
+.header-main{
+	width: 10%;
+	background-color: #04b733;
+}
+
+.header-main-content-p{
+	color: #0000d8;
+	
+}
+
+.header-main-content-p-p{
+	color: #d5e542;
+}
+.quote{
+	width:10%;
+	position: fixed;
+	top: 100px;
+	right: 0;
+  	z-index: 1;
+}

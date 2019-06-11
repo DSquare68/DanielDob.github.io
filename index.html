@@ -1,10 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Daniel</title>
+	<meta charset="UTF-8">
+	<title>Daniel Dobrzyński</title>
+	<link rel="stylesheet" href="main.css">
+		<script src="js/home.js"></script>
 </head>
 <body>
-	Witam!
+	<div class="header-image">
+		<p>Obrazek nagłówkowy</p>
+	</div>
+	<header class='header-main'>
+		<div class='header-main-content'>
+			<p class='header-main-content-p'>home</p>
+			<div>
+				<p class='header-main-content-p'>
+					Projekty
+					<div>
+						<p class='header-main-content-p-p'>F20</p>
+						<p class='header-main-content-p-p'>DCalendar</p>						
+					</div>
+				</p>
+				<p class='header-main-content-p'>
+					Technologie
+					<div>
+						<p class='header-main-content-p-p'>Java</p>
+						<p class='header-main-content-p-p'>C#</p>						
+					</div>
+				</p>
+			</div>
+			<div>
+				<p class='header-main-content-p'>CV</p>
+				<p class='header-main-content-p'>O mnie</p>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class='quote'>
+			<p id='quote-text'></p>
+			<p id='quote-author'></p>
+			<button class='quote-button' id='quote-button=prev' onClick='quoteSLider(-1)'>Prev</button>
+			<button class='quote-button' id='quote-button-next' onClick='quoteSLider(1)'>Next</button>
+		</div>
+	</section>
 </body>
 </html>
