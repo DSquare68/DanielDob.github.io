@@ -15,8 +15,13 @@ body{
 }
 
 .header-main{
-	width: 10%;
+	width: 9%;
 	background-color: #04b733;
+	position: fixed;
+	top: 100px;
+	left: 0;
+  	z-index: 1;
+  	margin-left: 1%;
 }
 
 .header-main-content-p{
@@ -33,4 +38,26 @@ body{
 	top: 100px;
 	right: 0;
   	z-index: 1;
+}
+
+/* TODO fix fixing of not fixed image */
+
+
+
+#profile-picture{
+	width: 20%;
+}
+#introduce{
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: red;
+}
+#introduce > p, #introduce > img{
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+}
+
+.introduce-p{
+	width: 60%
 }
