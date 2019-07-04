@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.header-image{
+	height: 90px;
+	width: 90%;
+	background-color: #2c16d0;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.header-image img{
+	float: left;
+}
+.header-image p#header-text{
+	padding-top: 15px;
+	text-align: center;
+	margin-right: 90px;
+}
+.header-tags {
+	text-align: right;
+}
+.header-tags p{
+	padding: 5px 7px;
+	display: inline;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-color: #00cb00;
+}
+
+.header-tags p:hover {
+	background-color: #69d400;
+}

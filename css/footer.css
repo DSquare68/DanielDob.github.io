@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#rights{
+	color: black;
+	text-align: center;
+	font-size:  8px;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin: 0px 0px 0xpx 0px;
+	background-color: #db0000;
+}
+.footer-contents{
+	text-align: right;
+}
+
+.footer-content{
+	color: #41db00;
+	font-size: 12px;
+	display: inline-block;
+}
+.footer-content p{
+	margin: 0 0 0 0;
+}
+#social-media{
+	float: left;
+	margin-left: 50px;
+}
+#social-media p{
+	display: inline;
+	margin: 0px 10px 0px 10px;
+}
+

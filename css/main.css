@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+	background-color: #989898;
+}
+
+.logo{
+	height: 80px;
+	weight: 80px;
+	margin-top: 5px;
+	margin-left: 5px;
+	
+}
+
+.information{
+	background: url('../images/welcome.png');
+	background-size: auto;
+	background-repeat: no-repeat;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
