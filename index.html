@@ -4,58 +4,70 @@
 	<meta charset="UTF-8">
 	<title>Daniel</title>
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-	<div class="header-image">
-		<p>Obrazek nagłówkowy</p>
-	</div>
-	<header class='header-main'>
-		<div class='header-main-content'>
-			<p class='header-main-content-p'>home</p>
-			<div>
-				<p class='header-main-content-p'>
-					Projekty
-					<div>
-						<p class='header-main-content-p-p'>F20</p>
-						<p class='header-main-content-p-p'>DCalendar</p>
-					</div>
-				</p>
-				<p class='header-main-content-p'>
-					Technologie
-					<div>
-						<p class='header-main-content-p-p'>Java</p>
-						<p class='header-main-content-p-p'>C#</p>
-					</div>
-				</p>
-			</div>
-			<div>
-				<p class='header-main-content-p'>CV</p>
-			</div>
+	<header>
+		<div class="header-image">
+			<p>Obrazek nagłówkowy</p>
 		</div>
 	</header>
-	<section>
-		<div class='quote'>
-			<p id='quote-text'></p>
-			<p id='quote-author'></p>
-			<button class='quote-button' id='quote-button=prev' onClick='quoteSLider(-1)'>Prev</button>
-			<button class='quote-button' id='quote-button-next' onClick='quoteSLider(1)'>Next</button>
+	<nav class='nav-main'>
+		<div class='nav-main-content'>
+			<div class 'nav-main-content-categery'>
+				<p class='nav-main-content-item-nav'>O mnie</p>
+				<div class >
+					<p class='nav-main-content-item-content'>Wysztacenie</p>
+					<p class='nav-main-content-item-content'>Drogra programinsty</p>
+				</div>
+			</div>
+			<div class 'nav-main-content-categery'>
+				<p class='nav-main-content-item-nav'>Projekty</p>
+				<div class >
+					<p class='nav-main-content-item-content'>F20</p>
+					<p class='nav-main-content-item-content'>PCPartPriceTracker</p>
+				</div>
+			</div>
+			<div class 'nav-main-content-categery'>
+				<p class='nav-main-content-item-nav'>Technologie</p>
+					<div>
+						<p class='nav-main-content-p-p'>Java
+							<p class='nav-main-content-item-subcontent'>JavaFx<br>Swing<br>JDBC<br></p>
+						</p>
+						<p class='nav-main-content-p-p'>C#</p>
+							<p class='nav-main-content-item-subcontent'>Office<br>Crystal<br></p>
+					</div>
+			</div>
 		</div>
-		<div id='introduce'>
-			<img alt="" src="res\img\profile_to_change.png" id='profile-picture'>
-			<p class='introduce-p'>
-			Lorem ipsum dolor sit amet, ullum vulputate no est, quo ea nullam viderer volumus. No debitis phaedrum sed, eum nullam tacimates at. Cum ne noluisse accusata scribentur, vim id sint dissentiunt, ex dicam commune est. Inani verterem eos te, te partem deseruisse sed, nonumes torquatos mea ut. Alienum liberavisse ea eum, no harum accusata constituam sit, sit an nostrud facilis consequat.
-
-Nusquam officiis hendrerit no ius, possit electram consetetur sed id, ea possim laboramus inciderint duo. Id vidit justo dicat eum, eos esse soluta mediocritatem cu, eu quando regione his. His apeirian volutpat abhorreant id, eu per porro oporteat, melius fuisset eos te. Ei cum case petentium intellegebat, eleifend torquatos ut his, mutat efficiantur has no.
-			</p>
-		</div>
-	</section>
+	</nav>
+	<main>
+		<section>
+			
+			<div id='introduce'>
+				<img alt="" src="res\img\profile_to_change.png" id='profile-picture'>
+				<p class='introduce-p' id='polish'>
+				Lorem ipsum dolor sit amet, ullum vulputate no est, quo ea nullam viderer volumus. No debitis phaedrum sed, eum nullam tacimates at. Cum ne noluisse accusata scribentur, vim id sint dissentiunt, ex dicam commune est. Inani verterem eos te, te partem deseruisse sed, nonumes torquatos mea ut. Alienum liberavisse ea eum, no harum accusata constituam sit, sit an nostrud facilis consequat.
+	
+	Nusquam officiis hendrerit no ius, possit electram consetetur sed id, ea possim laboramus inciderint duo. Id vidit justo dicat eum, eos esse soluta mediocritatem cu, eu quando regione his. His apeirian volutpat abhorreant id, eu per porro oporteat, melius fuisset eos te. Ei cum case petentium intellegebat, eleifend torquatos ut his, mutat efficiantur has no.
+				</p>
+				<p class='indroduce-p' id='english'>
+				Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
+				eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas 
+				sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+				</p>
+			</div>
+			<div id='animaction'>
+				<svg>
+				</svg>
+			</div>
+		</section>
+	</main>
 	<footer class="footer">
 		<div id="social-media">
-			<p>Facebook</p>
-			<p>github</p>
-			<p>reddit</p>
+			<p>Github</p>
+			<p>Linkedin</p>
+			<p>Reddit</p>
 			<p>other</p>
 		</div>
 		<div class="footer-contents">
