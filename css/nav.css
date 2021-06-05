@@ -1,0 +1,17 @@
+.nav-main{
+	width: 9.5%;
+	background-color: #04b733;
+	position: fixed;
+	left: 0;
+  	z-index: 1;
+  	margin-left: 1%;
+}
+
+.nav-main-content-category{
+	color: #0000d8;
+	
+}
+
+.nav-main-content-item-content{
+	color: #d5e542;
+}

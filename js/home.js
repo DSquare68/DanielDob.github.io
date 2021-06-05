@@ -33,5 +33,6 @@ function quoteSLider(n){
 	}
 
 	document.getElementById("quote-text").textContent=quote.quote[i];
-	document.getElementById("quote-author").textContent=quote.author[i];
+	document.getElementById("quote-author").textContent=quote.author[i]
+	document.getElementById().getContext("2d").;
 }
