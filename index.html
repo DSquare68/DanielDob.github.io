@@ -8,29 +8,44 @@
 	<link rel="stylesheet" href="css/footer.css">
 	<script type="text/javascript" src="js/init.js"></script>
 </head>
-<body>
+<body onload='setNavPic()'>
 	<header>
 		<div class="header-image">
 			<p>Obrazek nagłówkowy</p>
 		</div>
 	</header>
 	<nav class='nav-main'>
-		<div class='nav-main-content'>
-			<div class 'nav-main-content-categery'>
+		<div class='nav-pic'>
+			<img class='nav-pic-source' src='https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip'
+					alt="kotek" width='150' height='150' style='border-radius:100%'/>
+					<p class='nav-pic-baner' >O mnie</p>
+		</div>
+		<div class='nav-pic'>
+			<img class='nav-pic-source' src='https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip'
+					alt="kotek" width='150' height='150' style='border-radius:100%'/>
+					<div class='nav-pic-baner' >Projekty</div>
+		</div>
+		<div class='nav-pic'>
+			<img class='nav-pic-source' src='https://images.theconversation.com/files/350865/original/file-20200803-24-50u91u.jpg?ixlib=rb-1.1.0&rect=37%2C29%2C4955%2C3293&q=45&auto=format&w=926&fit=clip'
+					alt="kotek" width='150' height='150' style='border-radius:100%'/>
+					<div class='nav-pic-baner' >Technologie</div>
+		</div>
+		<!-- <div class='nav-main-content'>
+			<div class='nav-main-content-categery'>
 				<p class='nav-main-content-item-nav'>O mnie</p>
 				<div class >
 					<p class='nav-main-content-item-content'>Wysztacenie</p>
 					<p class='nav-main-content-item-content'>Drogra programinsty</p>
 				</div>
 			</div>
-			<div class 'nav-main-content-categery'>
+			<div class='nav-main-content-categery'>
 				<p class='nav-main-content-item-nav'>Projekty</p>
 				<div class >
 					<p class='nav-main-content-item-content'>F20</p>
 					<p class='nav-main-content-item-content'>PCPartPriceTracker</p>
 				</div>
 			</div>
-			<div class 'nav-main-content-categery'>
+			<div class='nav-main-content-categery'>
 				<p class='nav-main-content-item-nav'>Technologie</p>
 					<div>
 						<p class='nav-main-content-p-p'>Java
@@ -39,14 +54,16 @@
 						<p class='nav-main-content-p-p'>C#</p>
 							<p class='nav-main-content-item-subcontent'>Office<br>Crystal<br></p>
 					</div>
-			</div>
-		</div>
+			</div>-->
+		</div> 
 	</nav>
 	<main>
 		<section>
 			
 			<div id='introduce'>
-				<img alt="" src="res\img\profile_to_change.png" id='profile-picture'>
+				<div id='profil-pic'>
+					<img alt="" src="res\img\profile_to_change.png" id='profile-picture'>
+				</div>
 				<p class='introduce-p' id='polish'>
 				Lorem ipsum dolor sit amet, ullum vulputate no est, quo ea nullam viderer volumus. No debitis phaedrum sed, eum nullam tacimates at. Cum ne noluisse accusata scribentur, vim id sint dissentiunt, ex dicam commune est. Inani verterem eos te, te partem deseruisse sed, nonumes torquatos mea ut. Alienum liberavisse ea eum, no harum accusata constituam sit, sit an nostrud facilis consequat.
 	
