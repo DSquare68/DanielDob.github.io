@@ -13,3 +13,18 @@ function setNavPic(){
             };
     });
 }
+
+function initNav(){
+    var nav = document.querySelectorAll('.nav-main')[0];
+    nav.onmouseover=()=>{
+        nav.querySelectorAll('.nav-pic')[0].style.bottom='15px'; 
+        nav.addEventListener('wheel',(e)=>{
+            var a
+            if(e.deltaY>0)
+                a = '-25px';
+                else 
+                a ='25px';
+            
+        });
+    };
+}

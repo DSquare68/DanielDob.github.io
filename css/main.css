@@ -40,9 +40,26 @@ body{
 	right: 0;
   	z-index: 1;
 }
+.nav-div{
+	background-color: salmon;
+	left:200px;
+	 overflow-y: scroll;
+	 position: relative; 
+}
 .nav-pic{
 	float: left;
 	position: relative;
+}
+#first{
+	
+	height: 150px;
+	width: 150px;
+}
+#nav-pic-div{
+	height: 150px;
+	width: 150px;
+	border-radius:100%;
+	overflow: hidden;
 }
 .nav-pic-baner {
 
@@ -52,7 +69,7 @@ body{
 	font-size: 2em;
 	width:190px;
 	height: 60px;
-	background-color: #a1a1a1;
+	background-color: rgba(0, 128, 32, 0.9);
 	border-top-right-radius: 100%;
 	border-bottom-right-radius: 100%; 
 	float: left;
@@ -65,9 +82,10 @@ body{
 	display: -webkit-flex;
   	display: flex;
   	align-items: center;
+	padding-left: 10px;
   }
   .nav-pic-baner.animation{
-	animation: myfirst 2s;
+	animation: myfirst 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
   }
@@ -75,9 +93,9 @@ body{
   @keyframes myfirst {
 	0%   {left: 300px; }
 	25%  {opacity: 0.5; }
-	50%  {opacity: 0.8; }
-	75%  {opacity: 0.9; }
-	100% {left: 160px; opacity: 1; }
+	50%  {opacity: 0.7; }
+	75%  {opacity: 0.8; }
+	100% {left: 160px; opacity: 0.9; }
   }
 /* TODO fix fixing of not fixed image */
 
