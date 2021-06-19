@@ -1,17 +1,13 @@
 .nav-main{
-	width: 9.5%;
-	background-color: #04b733;
-	position: fixed;
+	width: 160px;
+	top: 35px;
 	left: 0;
+	position: -webkit-sticky;
+	position: sticky;
   	z-index: 1;
   	margin-left: 1%;
 }
-
-.nav-main-content-category{
-	color: #0000d8;
-	
-}
-
-.nav-main-content-item-content{
-	color: #d5e542;
+#nav-div{
+	background-color: #04b733;
+	height: 465px;
 }

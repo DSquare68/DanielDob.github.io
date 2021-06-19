@@ -16,15 +16,18 @@ function setNavPic(){
 
 function initNav(){
     var nav = document.querySelectorAll('.nav-main')[0];
-    nav.onmouseover=()=>{
-        nav.querySelectorAll('.nav-pic')[0].style.bottom='15px'; 
+    nav.onmouseover=()=>{ 
         nav.addEventListener('wheel',(e)=>{
-            var a
+            var a;
             if(e.deltaY>0)
-                a = '-25px';
-                else 
-                a ='25px';
-            
+                a = '-25';
+            else 
+                a ='25';
+            nav.querySelectorAll('.nav-pic').forEach((f)=>{
+                // var margin = getComputedStyle(f).marginTop;
+                // margin=parseInt(margin, 10);
+                // f.style.marginTop=(margin+a);
+            });
         });
     };
 }

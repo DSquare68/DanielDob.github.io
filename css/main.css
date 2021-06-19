@@ -3,7 +3,10 @@
 body{
 	background-color: #989898;
 }
-
+#the-main-div{
+	position: relative;
+	z-index: 1;
+}
 .logo{
 	height: 80px;
 	weight: 80px;
@@ -40,22 +43,16 @@ body{
 	right: 0;
   	z-index: 1;
 }
-.nav-div{
-	background-color: salmon;
-	left:200px;
-	 overflow-y: scroll;
-	 position: relative; 
-}
 .nav-pic{
 	float: left;
 	position: relative;
 }
-#first{
-	
+.nav-pic-source{	
 	height: 150px;
 	width: 150px;
 }
-#nav-pic-div{
+.nav-pic-div{
+	margin-left: 5px;
 	height: 150px;
 	width: 150px;
 	border-radius:100%;
@@ -105,6 +102,8 @@ body{
 	width: 200px;
 }
 #introduce{
+	position: absolute;
+	top: 0;
 	display: flex;
 	margin-left: 10%;
 	margin-right: 10%;
