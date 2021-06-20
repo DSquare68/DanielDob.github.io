@@ -6,6 +6,7 @@
 	position: sticky;
   	z-index: 1;
   	margin-left: 1%;
+	float: left;
 }
 #nav-div{
 	background-color: #04b733;

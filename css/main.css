@@ -3,6 +3,9 @@
 body{
 	background-color: #989898;
 }
+/* #main{
+	display: block;
+} */
 #the-main-div{
 	position: relative;
 	z-index: 1;
@@ -102,11 +105,11 @@ body{
 	width: 200px;
 }
 #introduce{
-	position: absolute;
-	top: 0;
+	/* position: absolute;
+	top: 0; */
 	display: flex;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
 	background-color: red;
 }
 #introduce > p, #introduce > img{
