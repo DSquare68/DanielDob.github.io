@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 body{
 	background-color: #989898;
+	margin: 0;
 }
 /* #main{
 	display: block;
@@ -28,28 +29,21 @@ body{
 }
 
 .header-image{
-	height: 175px;
-	width: 99%;
-	background: url(../images/board-911636__340.webp);
+	width: 100%;
+	background: url('../images/board-911636__340.webp');
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: center;
-}
-#header-title-name-div{
-	height: 175px;
-	width: 99%;
-	/* background-color: rgba(243, 255, 85, 0.55); */
-	border-radius: 70%;
-
+	overflow: auto;
 }
 #title-name{
 	text-align: center;
-	font-size: 7em;
-	color: #2f3cff;
+	font-size: 9em;
+	color: #3508ff   ;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	font-family: 'Niconne', cursive;
-	opacity: 1;
+	
 }
 
 
@@ -109,7 +103,7 @@ body{
 	25%  {opacity: 0.5; }
 	50%  {opacity: 0.7; }
 	75%  {opacity: 0.8; }
-	100% {left: 160px; opacity: 0.9; }
+	100% {left: 160px; opacity: 1; }
   }
 /* TODO fix fixing of not fixed image */
 
@@ -132,7 +126,7 @@ body{
 	*display: inline;
 	vertical-align: middle;
 }
-
 .introduce-p{
-	width: 60%
+	width: 60%;
+	font-size: 1.5em;
 }
