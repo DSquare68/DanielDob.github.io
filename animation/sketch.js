@@ -1,13 +1,6 @@
-let x = 100;
-let y = 100;
+let start = false;
 // 1 -| up to down 2 - | down to up  3 - -- left to right  4 - -- right to left  5 - I ćwiartka bot  6 - III ćw bot  7 - II cw top  8-  IV ćw top
 // 9 - I ćw top 10 - III ćw top  11 - II ćw bot  12 - IV ćw bot
-/*let points =[[0,0,0,30,0,30,0,30],[0,0,0,-30,0,-30,0,-30],[0,0,30,0,30,0,30,0],[0,0,-30,0,-30,0,-30,0],
-              [0,0,-6,-18,-12,-24,-30,-30],[0,0,-18,-6,-24,-12,-30,-30],
-              [0,0,-18,6,-24,12,-30,30],[0,0,-6,18,-12,24,-30,30],
-              [0,0,18,6,24,12,30,30],[0,0,6,18,12,24,30,30],
-              [0,0,6,-18,12,-24,30,-30],[0,0,18,-6,24,-12,30,-30]];
-*/
 let BigLines = [];
 BigLines.lenght = 75;
 class Line{
@@ -67,14 +60,19 @@ class BigLine{
     }
   }
 }
+var div;
 function setup() {
-  var parent = createCanvas(900,600);
+  parent = createCanvas(900,600);
   parent.parent('playground');
+  parent.mouseOver(changeFlag);
   frameRate(10);
   var i;
   for(i=0;i<75;i++){
     BigLines[i]= new BigLine(new Line((Math.floor(Math.random() * 55)+3)*SIZE,(Math.floor(Math.random() * 35)+3)*SIZE,Math.floor(Math.random() * 12)));
   }
+  div = createDiv("Chcesz zobaczyć coś fajnego?<br>Najedź myszką.");
+  div.position(400,300);
+  div.size(900,600);
 }
 let points = [[0,1],[0,-1],[1,0],[-1,0]];
 let pointsArcs = [[-1,0],[0,-1],[0,1],[-1,0],[0,1],[1,0],[1,0],[0,-1]];
@@ -95,19 +93,26 @@ function draw(){
   noFill();
   strokeWeight(2);
   var i;
-  BigLines.forEach(l=>{
-    l.draw();
-    var ran = Math.floor(Math.random() * 12);
-    l.step(ran);
-  });
-  
+  if(start){
+    BigLines.forEach(l=>{
+      l.draw();
+      var ran = Math.floor(Math.random() * 12);
+      l.step(ran);
+    });
+    div.remove();
+  }
   // for (i=0;i<15;i++){
   //   line.draw();   
   //   var ran = Math.floor(Math.random() * 12);
   //   line.step(ran);
   // }
 }
-
+function mouseOver(){
+  changeFlag();
+}
+function changeFlag(){
+  start=true;
+}
 // function draw() {
 //   background(235);
 //   noFill();

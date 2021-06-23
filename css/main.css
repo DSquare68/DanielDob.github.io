@@ -13,7 +13,7 @@ body{
 }
 .logo{
 	height: 80px;
-	weight: 80px;
+	height: 80px;
 	margin-top: 5px;
 	margin-left: 5px;
 	
@@ -107,7 +107,9 @@ body{
   }
 /* TODO fix fixing of not fixed image */
 
-
+#playground{
+	margin: auto;
+}
 
 #profile-picture{
 	width: 200px;

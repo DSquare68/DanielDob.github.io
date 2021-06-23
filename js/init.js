@@ -31,12 +31,3 @@ function initNav(){
         });
     };
 }
-function heightTopBannerListener(){
-    var header = document.querySelectorAll('header');
-    var title = header.getElementById('title-name');
-    var titleDiv = header.getElementsByClassName('header-image')[0];
-    titleDiv.style.height = title.style.height;
-    console.log("Height" + titleDiv.style.height+"      "+title.style.height)
-}
-
-window.onresize = heightTopBannerListener();
