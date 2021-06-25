@@ -60,7 +60,6 @@ class BigLine{
     }
   }
 }
-var div;
 function setup() {
   parent = createCanvas(900,600);
   parent.parent('playground');
@@ -70,9 +69,6 @@ function setup() {
   for(i=0;i<75;i++){
     BigLines[i]= new BigLine(new Line((Math.floor(Math.random() * 55)+3)*SIZE,(Math.floor(Math.random() * 35)+3)*SIZE,Math.floor(Math.random() * 12)));
   }
-  div = createDiv("Chcesz zobaczyć coś fajnego?<br>Najedź myszką.");
-  div.position(400,300);
-  div.size(900,600);
 }
 let points = [[0,1],[0,-1],[1,0],[-1,0]];
 let pointsArcs = [[-1,0],[0,-1],[0,1],[-1,0],[0,1],[1,0],[1,0],[0,-1]];
@@ -99,7 +95,7 @@ function draw(){
       var ran = Math.floor(Math.random() * 12);
       l.step(ran);
     });
-    div.remove();
+    // select('#playground-p').remove();
   }
   // for (i=0;i<15;i++){
   //   line.draw();   

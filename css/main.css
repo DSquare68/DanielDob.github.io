@@ -39,7 +39,7 @@ body{
 #title-name{
 	text-align: center;
 	font-size: 9em;
-	color: #3508ff   ;
+	color: #8dac1c   ;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	font-family: 'Niconne', cursive;
@@ -107,8 +107,19 @@ body{
   }
 /* TODO fix fixing of not fixed image */
 
-#playground{
-	margin: auto;
+#defaultCanvas0{
+	padding: 0;
+    margin: auto;
+    display: block;
+}
+#playground-div{
+	margin-left: 15%;
+	margin-right: 15%;
+	align-items: center;
+}
+#playground-p{
+	font-size: 46px;
+	text-align: center;
 }
 
 #profile-picture{
@@ -117,18 +128,21 @@ body{
 #introduce{
 	/* position: absolute;
 	top: 0; */
+	padding: 25px;
 	display: flex;
 	margin-left: 15%;
 	margin-right: 15%;
 	background-color: red;
-}
-#introduce > p, #introduce > img{
-	flex: 1;
-	display: inline-block;
-	*display: inline;
 	vertical-align: middle;
 }
 .introduce-p{
+	padding: 15px;
 	width: 60%;
 	font-size: 1.5em;
+}
+
+#profil-pic{
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
 }
