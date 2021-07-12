@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 body{
-	background-color: #989898;
+	background-color: #8cde898c;
 	margin: 0;
 }
 /* #main{
@@ -39,7 +39,7 @@ body{
 #title-name{
 	text-align: center;
 	font-size: 9em;
-	color: #8dac1c   ;
+	color: rgb(255, 255, 2)   ;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	font-family: 'Niconne', cursive;
@@ -76,7 +76,8 @@ body{
 	font-size: 2em;
 	width:250px;
 	height: 75px;
-	background-color: rgba(0, 128, 32, 0.9);
+	background-color: black;
+	color: white;
 	border-top-right-radius: 100%;
 	border-bottom-right-radius: 100%; 
 	float: left;
@@ -121,8 +122,9 @@ body{
 	
 }
 #playground-div{
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	background-color: rgba(254, 255, 168, 0.534);
+	width: 90%;
 	align-items: center;
 	vertical-align: middle;
 	display: table;
@@ -146,8 +148,8 @@ body{
 	padding: 25px;
 	display: flex;
 	margin-left: 10%;
-	margin-right: 10%;
-	background-color: red;
+
+	background-color: rgba(130, 180, 255, 0.534);
 	vertical-align: middle;
 }
 .introduce-p{

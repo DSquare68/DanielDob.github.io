@@ -7,7 +7,7 @@
 #cat-footer-marquee{
 	overflow: hidden;
     position: relative;
-	background-color: aqua; 
+	background-color: rgba(172, 255, 47, 0.527); 
 	padding: 0px;
 }
 #cat-footer-source{
@@ -18,35 +18,33 @@
 #rights{
 	color: black;
 	text-align: center;
-	font-size:  8px;
+	font-size:  1.5em;
 }
 .footer{
 	 position: relative; 
-	 height: 50px;
+	 height: 155px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	margin: 0px 0px 0xpx 0px;
 	background-color: #db0000;
 }
-.footer-contents{
-	text-align: right;
-}
-
-.footer-content{
-	color: #41db00;
-	font-size: 12px;
-	display: inline-block;
-}
-.footer-content p{
-	margin: 0 0 0 0;
+#social-media > a > img{
+	width: 75px;
+	height: 75px;
+	padding-right: 100px;
 }
 #social-media{
-	float: left;
-	margin-left: 50px;
+	position: relative;
+	margin-top: 25px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
 }
-#social-media p{
-	display: inline;
-	margin: 0px 10px 0px 10px;
+#comment{
+	position: absolute;
+   	left:0;
+	display: inline-flex;
+	font-size: 1.75em;
 }
 
