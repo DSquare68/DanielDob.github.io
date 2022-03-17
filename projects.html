@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/nav.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/projects.css">
 	<script type="text/javascript" src="js/init.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
     <script src="animation/sketch.js"></script>
@@ -13,7 +14,7 @@
 <body onload='setNavPic(); initNav();'>
 	<header>
 		<div class='header-image'><!--https://pixabay.com-->
-			<a id='title-name' href="index.html">
+            <a id='title-name' href="index.html">
 				Daniel Dobrzyński's github page
 			</a>
 		</div>
@@ -29,13 +30,12 @@
 			</div>
 			<div class='nav-pic'>
 				<div class='nav-pic-div'>
-				<a href="projects.html">
-				<img class='nav-pic-source' src='images/folder-2013209_960_720.png' 
-						alt="kotek" />
-				</a>
+                    <a href="projects.html">
+                        <img class='nav-pic-source' src='images/folder-2013209_960_720.png' 
+                                alt="kotek" />
+                    </a>
+					<div class='nav-pic-baner' >Projekty</div>
 				</div>
-						<div class='nav-pic-baner' >Projekty</div>
-				
 			</div>
 			<div class='nav-pic'>
 				<div class='nav-pic-div'>
@@ -49,36 +49,30 @@
 	</div>
 	<div id='the-main-div'></div>
 	<main id="main">
-		<section>
-			
-			<div id='introduce'>
-				<div id='profil-pic'>
-					<img alt="" src="images/profile.jpg" id='profile-picture'>
-				</div>
-				<p class='introduce-p' id='polish'>
-				Cześć, mam na imię Daniel. Najważniejsze o mnie to to, że jestem ambitny, jestem perfekcjonistą oraz lubię wyzwania. Lubię matematykę, komputery (CS) i koty oraz gry komputerowe.
-				<br>
-				<br>
-				Ciągle szukam swojej niszy by poznać moją ścieżkę inżyniera. Miejmy nadzieję inżyniera oprogramowania. A precyzyjnie dewelopera Javy.
+		<div class="project-div">
+			<div class="title-project-div">
+				<p class="title-project-p">Ewolucyjny sinus (Evolutionary sine)</p>
+			</div>
+			<div class="project-image-div">
+				<img class="project-img" src="images/Project_1_1.png">
+				<p class="project-p">Początek, wygenerowane pierwsze wzory, czekające na dane. Można wpisać poprzez pola w lewym gównym rogu albo 
+					lub klikając na płaszczyznę.
 				</p>
-				<p class='introduce-p' id='english'>
-				Hi, my name is Daniel. The most important thing about me is that I am ambitious, I am a perfectionist and I like challenges. I like math, computers (CS), cats, and computer games.
-				<br>
-				<br>
-				I am still looking for my niche to get to know my engineer path. Hopefully a software engineer. A Java developer to be precise.
+				<p class="project-p">At beginning, we generete first equations waitning for data. We can write via fields in top left corner or
+					clikings points on diagram field.
 				</p>
 			</div>
-		</section>
-		<section>
-			<div id='playground-div'>
-				<div class="playground-inline">
-				<p id='playground-p'>Chcesz zobaczyć coś ciekawego?<br>Najedź kursorem</p>
-				</div>
-				<div class="playground-inline" id="playground">
-					
-				</div>
+			<div class="project-image-div">
+				<p class="project-p">Po ustawieniu danych odpalamy program, i czekamy...</p>
+				<p class="project-p">After data set we wait...</p>
+				<img class="project-img" src="images/Project_1_2.gif">
 			</div>
-		</section>
+			<div class="project-image-div">
+				<img class="project-img" src="images/Project_1_3.png">
+				<p class="project-p">My decydujemy, kiedy program zakończyć i odczytać wynik.</p>
+				<p class="project-p">We decide, when to end program and note result.</p>
+			</div>
+		</div>
 		<section>
 				<marquee id='cat-footer-marquee' behavior="scroll" direction="left" scrollamount="18">
 					<img id='cat-footer-source' src='images/cat walking.gif' alt="cat"/>

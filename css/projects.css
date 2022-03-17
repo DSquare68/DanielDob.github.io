@@ -1,0 +1,29 @@
+.project-div{
+    margin-left: 10%;
+    width:80%;
+    background-color: #456765;
+    text-align: center;
+}
+.project-p{
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    font-size: 34px;
+    margin-left: 25px;
+    margin-top: 0;
+}
+.project-img{
+    width: 40%;
+    height: auto;
+    display: inline-block;  
+}
+.title-project-div{
+    width:75%;
+    margin-left: 10%;
+}
+.title-project-p{
+    font-size: 72px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
